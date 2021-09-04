@@ -37,6 +37,7 @@ function setup() {
 
 function draw() {
   background("black");
+  Engine.update(engine);
   ellipse(ball.position.x,ball.position.y,30);
   drawSprites();
 }
